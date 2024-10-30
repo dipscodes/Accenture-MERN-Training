@@ -1,0 +1,11 @@
+h2 {
+  color: bisque;
+  background-color: azure;
+}
+.demo-image {
+  border: 2px dotted black;
+}
+#demo-input {
+  background-color: teal;
+  color: white;
+}
