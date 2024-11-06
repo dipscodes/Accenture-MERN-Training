@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Grid Layout</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Soft, soothing color scheme */
+    .color-1 {
+      background-color: #ffadad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-2 {
+      background-color: #ffd6a5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-3 {
+      background-color: #fdffb6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-4 {
+      background-color: #caffbf;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-5 {
+      background-color: #9bf6ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-6 {
+      background-color: #a0c4ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-7 {
+      background-color: #bdb2ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-8 {
+      background-color: #ffc6ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-9 {
+      background-color: #d0f4de;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-10 {
+      background-color: #e4c1f9;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-11 {
+      background-color: #ffde7d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .color-12 {
+      background-color: #ffab76;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <!-- 12 of 1 -->
+    <div class="row">
+      <div class="col-1 color-1"><span>Span - 1</span></div>
+      <div class="col-1 color-2"><span>Span - 1</span></div>
+      <div class="col-1 color-3"><span>Span - 1</span></div>
+      <div class="col-1 color-4"><span>Span - 1</span></div>
+      <div class="col-1 color-5"><span>Span - 1</span></div>
+      <div class="col-1 color-6"><span>Span - 1</span></div>
+      <div class="col-1 color-7"><span>Span - 1</span></div>
+      <div class="col-1 color-8"><span>Span - 1</span></div>
+      <div class="col-1 color-9"><span>Span - 1</span></div>
+      <div class="col-1 color-10"><span>Span - 1</span></div>
+      <div class="col-1 color-11"><span>Span - 1</span></div>
+      <div class="col-1 color-12"><span>Span - 1</span></div>
+    </div>
+
+    <!-- 1 of 12 -->
+    <div class="row mt-3">
+      <div class="col-12 color-1"><span>Span - 12</span></div>
+    </div>
+
+    <!-- 6 of 2 -->
+    <div class="row mt-3">
+      <div class="col-2 color-2"><span>Span - 2</span></div>
+      <div class="col-2 color-3"><span>Span - 2</span></div>
+      <div class="col-2 color-4"><span>Span - 2</span></div>
+      <div class="col-2 color-5"><span>Span - 2</span></div>
+      <div class="col-2 color-6"><span>Span - 2</span></div>
+      <div class="col-2 color-7"><span>Span - 2</span></div>
+    </div>
+
+    <!-- 4 of 3 -->
+    <div class="row mt-3">
+      <div class="col-3 color-8"><span>Span - 3</span></div>
+      <div class="col-3 color-9"><span>Span - 3</span></div>
+      <div class="col-3 color-10"><span>Span - 3</span></div>
+      <div class="col-3 color-11"><span>Span - 3</span></div>
+    </div>
+
+    <!-- 3 of 4 -->
+    <div class="row mt-3">
+      <div class="col-4 color-4"><span>Span - 4</span></div>
+      <div class="col-4 color-5"><span>Span - 4</span></div>
+      <div class="col-4 color-6"><span>Span - 4</span></div>
+    </div>
+
+    <!-- 2 of 6 -->
+    <div class="row mt-3">
+      <div class="col-6 color-7"><span>Span - 6</span></div>
+      <div class="col-6 color-8"><span>Span - 6</span></div>
+    </div>
+
+    <!-- 4 and 8 -->
+    <div class="row mt-3">
+      <div class="col-4 color-9"><span>Span - 4</span></div>
+      <div class="col-8 color-10"><span>Span - 8</span></div>
+    </div>
+
+    <!-- 7 and 5 -->
+    <div class="row mt-3">
+      <div class="col-7 color-11"><span>Span - 7</span></div>
+      <div class="col-5 color-12"><span>Span - 5</span></div>
+    </div>
+
+    <!-- 10 and 2 -->
+    <div class="row mt-3">
+      <div class="col-10 color-1"><span>Span - 10</span></div>
+      <div class="col-2 color-2"><span>Span - 2</span></div>
+    </div>
+
+    <!-- 11 and 1 -->
+    <div class="row mt-3">
+      <div class="col-11 color-3"><span>Span - 11</span></div>
+      <div class="col-1 color-4"><span>Span - 1</span></div>
+    </div>
+
+    <!-- 4, 3, 2, 3 -->
+    <div class="row mt-3">
+      <div class="col-4 color-5"><span>Span - 4</span></div>
+      <div class="col-3 color-6"><span>Span - 3</span></div>
+      <div class="col-2 color-7"><span>Span - 2</span></div>
+      <div class="col-3 color-8"><span>Span - 3</span></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
