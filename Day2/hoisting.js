@@ -1,5 +1,5 @@
-// console.log(varVariable);
-// var varVariable = "I am a var variable";
+console.log(varVariable);
+var varVariable = "I am a var variable";
 
 welcomeTeam();
 function welcomeTeam() {
