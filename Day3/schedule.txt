@@ -1,0 +1,28 @@
+// Day No	 	Topics	                             , Training Date
+// Day 1	6	Intro to Full Stack , AOWP           , Wednesday, October 30, 2024
+// Day 2	6	Adv JavaScrip                        , Monday, November 4, 2024
+// Day 3	6	Adv JavaScript(Contd)                , Tuesday, November 5, 2024
+// Day 4	6	Bootstrap                            , Wednesday, November 6, 2024
+// Day 5	6	Bootstrap (Contd) , SASS             , Thursday, November 7, 2024
+// Day 6	6	SASS                                 , Friday, November 8, 2024
+// Day 7	6	Jenkins , NPM, WebPAck               , Monday, November 11, 2024
+// Day 8	6	JSHint, ES6                          , Tuesday, November 12, 2024
+// Day 9	6	ES6	                                 , Wednesday, November 13, 2024
+// Day 10	6	ReactJS                              , Thursday , November 14, 2024
+// Day 11	6	ReactJS	                             , Friday , November 15, 2024
+// Day 12	6	ReactJS	                             , Monday , November 18, 2024
+// Day 13	6	ReactJS                              , Tuesday , November 19, 2024
+// Day 14	6	ReactJS	                             , Wednesday, November 20, 2024
+// Day 15	6	ReactJS	                             , Thursday, November 21, 2024
+// Day 16	6	ReactJS                       	     , Friday, November 22, 2024
+// Day 17	3+3	ReactJS, NodeJS                    , Monday, November 25, 2024
+// Day 18	6	NodeJS	                             , Tuesday, November 26, 2024
+// Day 19	6	NodeJS	                             , Wednesday, November 27, 2024
+// Day 20	6	NodeJS                     	         , Thursday, November 28, 2024
+// Day 21	6	NodeJS                       	       , Friday, November 29, 2024
+// Day 22	6	NodeJS	                             , Monday , December 2, 2024
+// Day 23	6	NodeJS	                             , Tuesday , December 3, 2024
+// Day 24	6	NodeJS                               , Wednesday, December 4, 2024
+// Day 25	6	MicroServices using NodeJS	Thursday , December 5, 2024
+// Day 26	6	MicroServices using NodeJS	Friday   , December 6, 2024
+// Day 27	6	MicroServices using NodeJS	Monday   , December 9, 2024
