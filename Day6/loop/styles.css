@@ -1,0 +1,65 @@
+.square-1 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #ff5733;
+  margin: 5px;
+}
+
+.square-2 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #33ff57;
+  margin: 5px;
+}
+
+.square-3 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #3357ff;
+  margin: 5px;
+}
+
+.square-4 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #f333ff;
+  margin: 5px;
+}
+
+.square-5 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #ff33a5;
+  margin: 5px;
+}
+
+.square-6 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #ff8c33;
+  margin: 5px;
+}
+
+.square-7 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #33fff5;
+  margin: 5px;
+}
+
+.square-8 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #ffd633;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

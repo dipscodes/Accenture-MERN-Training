@@ -1,0 +1,15 @@
+@use "sass:list";
+$colors: #ff5733, #33ff57, #3357ff, #f333ff, #ff33a5, #ff8c33, #33fff5, #ffd633;
+
+$i: 1;
+
+@while $i <= list.length($colors) {
+  .square-#{$i} {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: list.nth($colors, $i);
+    margin: 5px;
+  }
+  $i: $i + 1;
+}

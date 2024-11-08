@@ -1,0 +1,18 @@
+$base-width: 100px;
+$base-height: 50px;
+
+@mixin set-dimensions($width, $height) {
+  width: $width;
+  height: $height;
+  background-color: #a8d8ea;
+  border: 2px solid #769fcd;
+  margin: 10px;
+}
+
+.small-div {
+  @include set-dimensions($base-width, $base-height);
+}
+
+.large-div {
+  @include set-dimensions($base-width * 2, $base-height * 5);
+}

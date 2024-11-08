@@ -1,0 +1,30 @@
+.box {
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.square-box {
+  @extend .box;
+  width: 100px;
+  height: 100px;
+  background-color: #a8d8ea;
+  border: 5px dotted #769fcd;
+}
+
+.rectangle-box {
+  @extend .box;
+  width: 200px;
+  height: 100px;
+  background-color: #b8e994;
+  border: 8px solid #6b7aa1;
+}
+
+.tall-box {
+  @extend .box;
+  width: 100px;
+  height: 200px;
+  background-color: #fbc3bc;
+  border: 2px solid #c8a2c8;
+}

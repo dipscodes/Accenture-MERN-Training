@@ -1,0 +1,37 @@
+$pastel-blue: #a8d8ea;
+$pastel-green: #b8e994;
+$pastel-pink: #fbc3bc;
+$pastel-purple: #c8a2c8;
+$pastel-yellow: #f9f0c3;
+$pastel-dark-blue: #769fcd;
+
+@mixin button-style {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+@mixin paragraph-style($text-color, $bg-color) {
+  color: $text-color;
+  background-color: $bg-color;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.button {
+  @include button-style;
+  background-color: $pastel-blue;
+  color: #fff;
+}
+
+.paragraph {
+  @include paragraph-style(
+    $text-color: $pastel-dark-blue,
+    $bg-color: $pastel-pink
+  );
+}
