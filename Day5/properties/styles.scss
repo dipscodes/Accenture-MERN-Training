@@ -1,0 +1,20 @@
+$pastel-pink: #ffb3c1;
+$pastel-blue: #a7c7e7;
+$pastel-yellow: #f8e1a1;
+$pastel-green: #a8e6cf;
+
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 30px;
+
+.container {
+  width: 300px;
+  height: 200px;
+
+  margin: $spacing-medium;
+  padding: $spacing-small;
+  border: $spacing-large solid $pastel-blue;
+
+  background-color: $pastel-yellow;
+  border-radius: 15px;
+}

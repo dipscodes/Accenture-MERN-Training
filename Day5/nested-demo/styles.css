@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff3e0;
+  color: #4f4f4f;
+  padding: 20px;
+}
+
+.container .food-list {
+  background-color: #ffcfdf;
+  padding: 15px;
+  list-style-type: none;
+  border-radius: 8px;
+}
+.container .food-list li {
+  margin: 10px 0;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+.container .food-list li ul {
+  background-color: #c1e1c1;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.container .food-list li ul li {
+  margin: 8px 0;
+  padding: 8px 12px;
+}
+.container .food-list li ul li ul {
+  background-color: #ffeb99;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.container .food-list li ul li ul li {
+  margin: 8px 0;
+  padding: 8px 10px;
+}
+.container .food-list li ul li ul li ul {
+  background-color: #b3cde0;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.container .food-list li ul li ul li ul li {
+  margin: 8px 0;
+  padding: 8px 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

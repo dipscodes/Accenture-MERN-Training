@@ -1,0 +1,31 @@
+$primary-color: #a8dadc;
+$secondary-color: #f1faee;
+$text-color: #457b9d;
+$button-color: #e63946;
+$padding: 20px;
+$border-radius: 8px;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  color: $text-color;
+  padding: $padding;
+}
+
+.container {
+  background-color: $secondary-color;
+  padding: $padding;
+  border-radius: $border-radius;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background-color: $button-color;
+  color: #fff;
+  padding: $padding 1.5 * $padding;
+  border-radius: $border-radius;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
