@@ -1,4 +1,15 @@
-.App {
+h1 {
+  background-color: cyan;
+  color: beige;
+  text-align: center;
+  border: 8px solid cadetblue;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
