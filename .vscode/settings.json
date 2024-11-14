@@ -9,7 +9,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontSize": 18,
+  "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.fontFamily": "Fira Code, monospace",
@@ -17,5 +17,8 @@
   "terminal.integrated.fontFamily": "'MesloLGS NF', 'monospace', monospace",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
