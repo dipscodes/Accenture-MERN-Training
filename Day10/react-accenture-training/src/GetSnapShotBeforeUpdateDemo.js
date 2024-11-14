@@ -23,7 +23,7 @@ class GetSnapShotBeforeUpdateDemo extends React.Component {
     }
   }
 
-  componentDidMount() {
+  componentDidMountDemo() {
     setTimeout(() => {
       this.setState({ favoritecolor: "Green" });
     }, 5000);

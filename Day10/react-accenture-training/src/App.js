@@ -9,6 +9,9 @@ import ConstructorDemo from "./ConstructorDemo.js";
 import GetDerivedState from "./GetDerivedState.js";
 import ShouldComponentUpdateDemo from "./ShouldComponentUpdateDemo.js";
 import GetSnapShotBeforeUpdateDemo from "./GetSnapShotBeforeUpdateDemo.js";
+import ComponentDidMountDemo from "./ComponentDidMountDemo.js";
+import ChildDemo from "./ChildDemo.js";
+import WillUnMount from "./WillUnmount.js";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
       <GetDerivedState fcolor="Blue" />
       <ShouldComponentUpdateDemo />
       <GetSnapShotBeforeUpdateDemo />
+      <ComponentDidMountDemo />
+      <ChildDemo />
+      <WillUnMount />
     </div>
   );
 }

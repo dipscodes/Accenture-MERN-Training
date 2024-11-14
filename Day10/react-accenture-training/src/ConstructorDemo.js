@@ -1,7 +1,5 @@
 import React from "react";
 
-import { ReactDOM } from "react";
-
 class ConstructorDemo extends React.Component {
   constructor() {
     super();
