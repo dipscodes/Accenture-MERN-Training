@@ -4,7 +4,7 @@ function Jsx() {
     { id: 10011, name: "Radha" },
     { id: 10012, name: "Krishna" },
     { id: 10013, name: "Ram" },
-    { id: 10011, name: "seetha" },
+    { id: 10014, name: "seetha" },
   ];
 
   const fruits = ["apple", "orange", "kiwi"];

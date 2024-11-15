@@ -13,6 +13,12 @@ import ComponentDidMountDemo from "./Day10/ComponentDidMountDemo.js";
 import ChildDemo from "./Day10/ChildDemo.js";
 import WillUnMount from "./Day10/WillUnmount.js";
 import Student from "./Day11/Student.js";
+import ConditionalRenderDemo from "./Day11/UserLogging.js";
+import ListDemo from "./Day11/ListDemo.js";
+import DataBindingDemo from "./Day11/DataBindingDemo.js";
+import ControlledFormDemo from "./Day11/ControlledFromDemo.js";
+import UnControlledFormDemo from "./Day11/UncontrolledFormDemo.js";
+import CustomerComponentTask from "./Day11/CustomerComponentTask.js";
 
 function App() {
   return (
@@ -34,6 +40,12 @@ function App() {
       <ChildDemo />
       <WillUnMount />
       <Student name="Vikramaditya" rollNumber={11} marks={80} />
+      <ConditionalRenderDemo isLoggedIn={false} />
+      <ListDemo />
+      <DataBindingDemo />
+      <ControlledFormDemo />
+      <UnControlledFormDemo />
+      <CustomerComponentTask />
     </div>
   );
 }
