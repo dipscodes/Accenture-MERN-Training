@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 
 class ShouldComponentUpdateDemo extends React.Component {
   constructor(props) {

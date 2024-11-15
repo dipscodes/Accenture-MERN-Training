@@ -1,4 +1,4 @@
-function Jsx_demo() {
+function JSXDemo() {
   const myElement = (
     <>
       <ul>
@@ -16,4 +16,4 @@ function Jsx_demo() {
   );
 }
 
-export default Jsx_demo;
+export default JSXDemo;
